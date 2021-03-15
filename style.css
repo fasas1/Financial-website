@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+.container{
+    max-width: 1200px;
+    margin: 30px auto;
+}
+.nav-bar{
+    background:#161616;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+.logo{
+    color: #8a2b09;
+}
+
+.list-item{
+     display: flex;
+    
+}
+
+.logo-brand{
+     font-size: 29px;
+     color: white;
+     
+}
+.list-item li{
+    padding: 10px 14px;
+    font-size: 19px;
+    list-style: none;
+}
+
+.list-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.list-item a:hover{
+    color:#b6380b;
+}
+img{
+    width: 100%;
+}
+.brand{
+    font-size: 27px;
+      color: white;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url('image/finance1.jpg') ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.btnn--1{
+    padding: 18px 25px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    color:black;
+    border: none;
+   
+}
+.btnn--1:hover{
+    background:rgb(207, 67, 16);
+}
+
+.btn{
+    padding: 18px 25px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    color:black;
+    border: none;
+   
+}
+
+.btn:hover{
+    background:rgb(207, 67, 16);
+}
+.head-title{
+    color: white;
+    text-align: center;
+}
+
+.head-title p{
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.head-title h2{
+    font-size: 50px;
+}
+
+.page-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+ 
+}
+
+.page{
+    margin-top: 70px;
+}
+
+.page h2{
+    font-size: 39px;
+}
+.page h3{
+    font-size: 32px;
+}
+
+.page p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.page-image img{
+    margin-left: 120px;
+}
+.square{
+    height: 12px;
+    width: 12px;
+    margin: 15px 0;
+    display: inline-block;
+    background:#581C07;
+    
+}
+.line{
+    line-height: 8px;
+}
+
+.line-1{
+    width: 15px;
+    height: 15px;
+    background:#581C07;
+    display: inline-block;
+}
+
+.line-2{
+    height: 3px;
+    width: 80px;
+    background:#581C07;
+    display: inline-block;
+}
+
+.line-3{
+    height: 1px;
+    width: 60px;
+    display: inline-block;
+    background:#581C07;
+
+}
+
+/*feature continues*/
+
+.feature-row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 40px;
+    gap: 1rem;
+}
+
+.feature-right{
+    margin-left: 50px;
+
+}
+.feature-right h1{
+    font-size: 40px;
+}
+
+.feature-right h3{
+    font-size: 30px;
+    
+}
+
+.feature-right p{
+    font-size: 20px;
+}
+/*next section*/
+
+.section-c{
+    background-color: black;
+    height: 800px;
+}
+.section-c h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.card-row{
+    padding-top: 4.5rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+    transition: .5 ease;
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    height: 500px;
+}
+.card:hover{
+    
+    transform: scale(1.1);
+}
+.card-image img{
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body h4{
+        text-align: center;
+        font-size: 27px;
+}
+
+.card-body p{
+   
+    font-size: 19px;
+    margin-top: 20px;
+    padding: 0 40px; 
+}
+
+.card-info h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0;
+    color:#080808;    
+}
+
+
+.wrap-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem; 
+}
+
+.first-section{
+    margin-top: 80px;
+}
+
+.first-section h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.first-section p{
+    font-size: 20px;
+}
+
+
+
+#footer-wrap{
+    background-color:#1f1e1d;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+#footer-wrap .container-footer{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-gap: 1rem;
+}
+
+.container-footer li{
+    list-style: none;
+
+}
+.footer-end h5{
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+form input{
+    width: 100%;
+    padding: 20px;
+}
+
+@media(max-width:770px){
+    
+    .head-title p{
+        font-size: 20px;
+    }
+    
+    .head-title h2{
+        font-size: 30px;
+    }
+
+    .page h2{
+        font-size: 25px;
+    }
+    .page h3{
+        font-size: 22px;
+
+    }
+    .page-box{
+        grid-template-columns:1fr ;
+        grid-gap: 1rem;
+
+    }
+    .page p{
+        max-width: 350px;
+    }
+
+    .page,.page-image img{
+          margin: auto;
+    }
+    .feature-row{
+        grid-template-columns:1fr;
+        display: grid;
+    }
+    .feature-right h1{
+        font-size: 33px;
+
+    }
+    
+    .feature-right h3{
+        font-size: 25px;
+        
+    }
+    
+    .feature-right{
+        margin: auto;
+    }
+
+    .feature-right p{
+        max-width: 350px;
+    }
+    
+    .card-row{
+        
+        display: grid;
+        grid-template-columns:1fr;
+
+    }
+    .section-c{
+    
+        height: 1600px;
+    }
+    .card{
+        height: 400px;
+        width: 300px;
+        margin: auto;
+    }
+
+    .card-image img{
+        height: 100px;
+    }
+    .wrap-page{
+        display: grid;
+        grid-template-columns:1fr;    
+    }
+    .first-section h1{
+        font-size: 30px;
+    }
+    
+    .first-section p{
+        font-size: 23px;
+    }
+    .first-section{
+        width: 500px;
+        margin: auto;
+    }
+    .image-page{
+        margin: auto;
+    
+
+    }
+
+
+    #footer-wrap{
+        background-color:#1f1e1d;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        height: auto;
+    }
+    
+    #footer-wrap .container-footer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: .5rem;
+        
+   }
+   form input{
+    width: 30%;
+    padding: 10px;
+   }
+   .footer-end h5{
+    font-size: 15px;
+  
+}
+.btn{
+    padding: 10px 17px;
+    font-size: 15px;
+   
+}
+
+
+}
